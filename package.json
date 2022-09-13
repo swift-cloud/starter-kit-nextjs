@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": " cd compute-js && npm run build",
+    "prebuild": "next build",
     "start": "next start",
     "lint": "next lint"
   },
