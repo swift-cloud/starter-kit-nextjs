@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": " cd compute-js && npm install && npm run build && cp -r ./compute-js/bin ./bin",
+    "build": " cd compute-js && npm install && npm run build && cp -r ./bin ../bin",
     "prebuild": "next build",
     "start": "next start",
     "lint": "next lint"
